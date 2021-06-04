@@ -1,0 +1,63 @@
+.header {
+    /* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 5px;
+
+position: static;
+width: 251px;
+height: 50px;
+left: 10px;
+top: 10px;
+
+background: #E5E5E5;
+
+mix-blend-mode: darken;
+/*backdrop-filter: blur(4px);
+
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.header-bar{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    
+    position: center;
+    width: 97.5%;
+    height: 66px;
+
+    
+    
+    background: #808080;
+    border: 1px dashed #000000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+    
+  }
+
+.header a.band-name {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    
+  }
