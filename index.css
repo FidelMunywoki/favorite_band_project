@@ -77,3 +77,70 @@ img{
     border: 5px solid #2A362A;
     box-sizing: border-box;
 }
+
+
+
+/*To remove*/
+div{
+  border-width: 1px;
+  border-style: dashed;
+  border-color: red;
+}
+
+
+
+.bottom {
+  position:absolute;                 
+  bottom: -1200px;                       
+  width: 94.5%;
+  height: max-content;
+
+  background-image: url(https://user-images.githubusercontent.com/42610692/120894536-96bb2680-c621-11eb-8489-9d676c59163c.jpg);
+  
+}
+
+.h1-band-members{
+  
+  text-align: center;
+}
+
+.text-style{
+  color: white;
+}
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+.column {
+  float: left;
+  width: 23.2%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.no-bg{
+  background-color: transparent;
+}
+
+img.resize {
+  max-width:92.5%;
+  max-height:300px;
+}
+
+.bg-edit{
+  background-color: black;
+}
+
+.right-shift{
+
+  text-align: right;
+  padding: 10px;
+}
