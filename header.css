@@ -15,11 +15,6 @@ top: 10px;
 background: #E5E5E5;
 
 mix-blend-mode: darken;
-/*backdrop-filter: blur(4px);
-
-
-
-/* Inside Auto Layout */
 
 flex: none;
 order: 0;
@@ -46,18 +41,11 @@ margin: 0px 10px;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header a {
-    float: left;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-
-    
-  }
-
 .header a.band-name {
     font-size: 60px;
     font-weight: bold;
     color: black;
+    float: left;
+    text-decoration: none;
     
   }
