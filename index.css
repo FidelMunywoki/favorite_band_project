@@ -63,8 +63,11 @@ img{
   .songs-style{
     margin-left: 15px;
     width: 92.5%;
+    
   }
-
+  a:link {
+    text-decoration: none;
+  }
   ol{
     
     overflow: auto;
@@ -76,22 +79,23 @@ img{
     background: #E5E5E5;
     border: 5px solid #2A362A;
     box-sizing: border-box;
+    
 }
 
+/*
 
-
-/*To remove*/
+/*To remove
 div{
   border-width: 1px;
   border-style: dashed;
   border-color: red;
 }
 
-
+*/
 
 .bottom {
   position:absolute;                 
-  bottom: -1200px;                       
+  bottom: -1220px;                       
   width: 94.5%;
   height: max-content;
 
@@ -143,4 +147,10 @@ img.resize {
 
   text-align: right;
   padding: 10px;
+}
+
+img.style1{
+  max-width: 50%;
+  max-height: 170px;
+
 }
