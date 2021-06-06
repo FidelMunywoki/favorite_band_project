@@ -91,7 +91,7 @@ div{
 
 .bottom {
   position:absolute;                 
-  bottom: -1200px;                       
+  bottom: -1150px;                       
   width: 94.5%;
   height: max-content;
 
@@ -143,4 +143,9 @@ img.resize {
 
   text-align: right;
   padding: 10px;
+}
+
+img.scale1 {
+  max-width:50%;
+  max-height:170px;
 }
