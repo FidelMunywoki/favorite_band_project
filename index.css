@@ -1,8 +1,11 @@
+/* styling the background color */
 
 body {
     background: #E5E5E5;
+    
 }
 
+/*postioning the main image  */
 img{
     position: center;
     width: 97.0%;
@@ -144,3 +147,4 @@ img.style1{
   max-height: 170px;
 
 }
+
